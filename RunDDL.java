@@ -8,7 +8,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DerbyTest {
+public class RunDDL {
 
     private static int nthreads = 0;
     private static String driver = null;
@@ -20,7 +20,7 @@ public class DerbyTest {
     public static void main(String[] args) throws InterruptedException, FileNotFoundException, IOException {
        
         /* ************* MAIN PROGRAM **************/
-        DerbyTest dt = new DerbyTest();
+        RunDDL dt = new RunDDL();
         ClusterInfo node = new ClusterInfo();
 
         
